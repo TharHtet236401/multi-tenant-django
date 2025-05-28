@@ -35,6 +35,7 @@ CSRF_TRUSTED_ORIGINS = [ 'https://*' ]
 SHARED_APPS = [
     'django_tenants',
     'a_tenant_manager',
+    'colorfield',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
