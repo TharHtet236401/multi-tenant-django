@@ -1,0 +1,63 @@
+venv/
+node/
+media/
+__pycache__/
+db.sqlite3
+.env
+.DS_Store
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Django
+*.log
+local_settings.py
+staticfiles/
+static/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database backups
+*.dump
+*.sql
+*.sqlite3-journal
