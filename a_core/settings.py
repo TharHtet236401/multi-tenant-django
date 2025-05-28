@@ -174,6 +174,17 @@ STATICFILES_DIRS = [ BASE_DIR / 'static' ]
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media' 
 
+# Storage
+STORAGES ={
+    "default":{
+        "BACKEND": "a_home.storage.CustomSchemaStorage",
+    },
+    "staticfiles":{
+        "BACKEND": "django.contrib.staticfiles.storage.StaticFilesStorage",
+    }
+}
+
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LOGIN_REDIRECT_URL = '/'
